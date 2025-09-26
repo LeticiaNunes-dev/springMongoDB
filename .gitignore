@@ -1,0 +1,57 @@
+# Exclusões de Build e IDE (Conteúdo que você já tinha)
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# 🛑 EXCLUSÕES ESSENCIAIS DE SEGURANÇA E CACHE (ADICIONADAS)
+
+# Excluir a pasta de cache de dependências do Maven
+/repo/
+
+# Excluir logs
+*.log
+
+# Excluir executáveis compilados
+*.jar
+*.war
+*.class
+
+# Variáveis de Ambiente e Arquivos de Configuração Sensível
+.env
+
+# CRUCIAL: Exclui o arquivo application.properties/yml, onde está a URI do MongoDB!
+application*.properties
+application*.yml
+
+# Excluir a pasta de dados do MongoDB (se você a criou dentro do projeto)
+/data/db/
