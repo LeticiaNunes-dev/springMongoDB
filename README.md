@@ -1,4 +1,4 @@
-# Projeto: springMongoDB - Serviço CRUD
+# Projeto de demonstração: springMongoDB - Serviço CRUD
 
 ## 🚀 Visão Geral
 Projeto de demonstração para uma API RESTful completa (CRUD - Create, Read, Update, Delete) utilizando a stack moderna: Spring Boot 3 e persistência de dados em um ambiente NoSQL (MongoDB).
