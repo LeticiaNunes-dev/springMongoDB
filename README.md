@@ -14,7 +14,7 @@ Projeto de demonstração para uma API RESTful completa (CRUD - Create, Read, Up
 ### Pré-requisitos
 1.  **Java 17** (ou superior).
 2.  **Maven** (Gerenciador de Dependências).
-3.  **MongoDB** (Serviço local rodando na porta 27017, ou Docker).
+3.  **MongoDB** (Serviço local rodando na porta 27017).
 
 ### Conexão com o Banco de Dados
 Para rodar, você deve configurar o arquivo `application.properties` com sua URI do MongoDB local ou Atlas.
